@@ -1,0 +1,12 @@
+/**
+/**
+ * @name Remove Status Icon
+ * @author klovaaxel
+ * @version 0.0.1
+ * @description Simply swaps the location of the live and status icons
+ * @source https://github.com/klovaaxel/swap-live-and-status-icons-discord-theme
+*/
+
+[class^="voiceUser"] [class^="content"] [class^="icons"] [class^="iconGroup"]:nth-child(2) {
+    display: none;
+}
